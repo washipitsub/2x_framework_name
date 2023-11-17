@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>ようこそ、ショッピングサイトへ</h1>
+	<p>パスワードを入力してください</p>
+	<form th:action="@{/syohinlogresult}" method="GET">
+		ID:
+        <input type="text" name="logID"><br>
+        パスワード:
+        <input type="text" name="pass"><br>
+        <input type="submit" value="送信">
+	</form>
+</body>
+</html>
